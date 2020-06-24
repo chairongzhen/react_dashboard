@@ -91,7 +91,7 @@ const MarketValues = props => {
 				showClean = true;
 			}
 
-			console.log('the select is: ',selectedParams);
+			
 			let bondsData = await calMarketsData(...selectedParams.current);
 			
 			let summaryData = await getCalSummaryData(...selectedParams.current);
