@@ -1,0 +1,62 @@
+[
+	{
+		"time": "2011",
+		"sectorId": "0301010112",
+		"TotalMarket": 1134109758761.69,
+		"companyNum": 93
+	},
+	{
+		"time": "2012",
+		"sectorId": "0301010112",
+		"TotalMarket": 1274420008826.63,
+		"companyNum": 97
+	},
+	{
+		"time": "2013",
+		"sectorId": "0301010112",
+		"TotalMarket": 1437780655509.44,
+		"companyNum": 97
+	},
+	{
+		"time": "2014",
+		"sectorId": "0301010112",
+		"TotalMarket": 2146708656636.69,
+		"companyNum": 99
+	},
+	{
+		"time": "2015",
+		"sectorId": "0301010112",
+		"TotalMarket": 3021372497669.44,
+		"companyNum": 102
+	},
+	{
+		"time": "2016",
+		"sectorId": "0301010112",
+		"TotalMarket": 2748363344026.29,
+		"companyNum": 106
+	},
+	{
+		"time": "2017",
+		"sectorId": "0301010112",
+		"TotalMarket": 2922258566069.71,
+		"companyNum": 116
+	},
+	{
+		"time": "2018",
+		"sectorId": "0301010112",
+		"TotalMarket": 2412251587730.36,
+		"companyNum": 119
+	},
+	{
+		"time": "2019",
+		"sectorId": "0301010112",
+		"TotalMarket": 3100699184471.80,
+		"companyNum": 131
+	},
+	{
+		"time": "2020",
+		"sectorId": "0301010112",
+		"TotalMarket": 3174664996500.83,
+		"companyNum": 132
+	}
+]

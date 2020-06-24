@@ -1,0 +1,27 @@
+[
+	{
+		"CompaniesAmount":98,
+		"CompanyType":"上交所",
+		"TotalMarket":2710477555846.9299795
+	},
+	{
+		"CompaniesAmount":13,
+		"CompanyType":"深交所",
+		"TotalMarket":124886301831.9299998
+	},
+	{
+		"CompaniesAmount":11,
+		"CompanyType":"港交所",
+		"TotalMarket":680922146796.134181
+	},
+	{
+		"CompaniesAmount":36,
+		"CompanyType":"新三板",
+		"TotalMarket":23099788767.999999988
+	},
+	{
+		"CompaniesAmount":0,
+		"CompanyType":"其他",
+		"TotalMarket":0
+	}
+]

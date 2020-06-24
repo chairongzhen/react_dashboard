@@ -1,0 +1,9 @@
+[
+	{ "enterpriseNature": "中央国有企业", "bondNum": 124 },
+	{ "enterpriseNature": "其他企业", "bondNum": 7 },
+	{ "enterpriseNature": "公众企业", "bondNum": 331 },
+	{ "enterpriseNature": "民营企业", "bondNum": 52 },
+	{ "enterpriseNature": "中外合资企业", "bondNum": 1 },
+	{ "enterpriseNature": "外商独资企业", "bondNum": 3 },
+	{ "enterpriseNature": "地方国有企业", "bondNum": 178 }
+]
