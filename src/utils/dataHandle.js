@@ -389,26 +389,30 @@ export const getCalSummaryData = async(year, indu) => {
 		riseNum: 0,
 		riseRate: 0
 	}
-	let resultdata = rawdata;
-	if(year === "" && indu === "") {
-		resultdata = rawdata.filter(item => item.time.substr(0, 4) === "2020");
-	} else if(year === "" && indu !== "") {
-		resultdata = rawdata.filter(item => item.time.substr(0, 4) === "2020" && item.industryName === indu);
-	}else {
-		if (year !== '') {
-			resultdata = rawdata.filter(item => item.time.substr(0, 4) === year);
-		}
-		if (indu !== '') {
-			resultdata = resultdata.filter(item => item.industryName === indu);
-		}
-	}
-	
+
 	let lastyear = "2019";
 	if(year !== "") {
 		lastyear = (parseInt(year) -1).toString();
 	}
 
-	let lastdata = rawdata.filter(item => item.time.substr(0, 4) === lastyear);
+	let resultdata = rawdata;
+	let lastdata = [];
+	
+	if(year === "" && indu === "") {
+		resultdata = rawdata.filter(item => item.time === "2020");
+		lastdata = rawdata.filter(item => item.time === lastyear);
+	} else if(year === "" && indu !== "") {
+		resultdata = rawdata.filter(item => item.time === "2020" && item.industryName === indu);
+		lastdata = rawdata.filter(item => item.time === lastyear && item.industryName === indu);
+	}else {
+		resultdata = rawdata.filter(item=> year !== ''?item.time === year:true && indu !== ''?item.industryName === indu:true);
+		lastdata = rawdata.filter(item=> year !== ''?item.time === lastyear:true && indu !== ''?item.industryName === indu:true);
+	}
+	
+
+
+	
+	console.log('the lastdata is: ',lastdata);
 	let lastvalues = 0;
 	for(let o of lastdata) {
 		lastvalues += o.SumTotalMarket;

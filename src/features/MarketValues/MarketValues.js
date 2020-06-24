@@ -81,6 +81,7 @@ const MarketValues = props => {
 
 			if(param.time && param.time !== selectedParams.current[0]) {
 				selectedParams.current[0] = param.time;
+				selectedParams.current[1] = category;
 				showClean = true;
 			}
 
