@@ -227,7 +227,7 @@ const MarketValues = props => {
 						<Option value="">所有行业</Option>
 						<Option value="金融、保险业">金融、保险业</Option>
 						<Option value="制造业">制造业</Option>
-						<Option value="交通运输">交通运输、仓储业</Option>
+						<Option value="交通运输、仓储业">交通运输、仓储业</Option>
 						<Option value="批发和零售贸易">批发和零售贸易</Option>
 						<Option value="信息技术业">信息技术业</Option>
 						<Option value="综合类">综合类</Option>
